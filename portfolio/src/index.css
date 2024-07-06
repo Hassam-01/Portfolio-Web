@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .dark .bg-primarydark {
+      background-color: #392657; /* Example dark mode background color */
+    }
+    .bg-primarylight {
+      background-color: #553d7d; /* Example light mode background color */
+    }
+  }

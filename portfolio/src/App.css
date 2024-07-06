@@ -1,0 +1,10 @@
+/* .bg-primarydark{
+  background-color: #392657;
+}
+.bg-primarylight{
+  background-color: #553d7d;
+} */
+
+.bg-secondary{
+  background-color: linear-gradient(0deg, #392657 0%, #392657 100%, #392657 80%);
+}
