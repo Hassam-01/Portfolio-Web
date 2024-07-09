@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 // Layouts
 import NavBarLayout from "./layouts/NavbarLayoutHome";
 import LayoutOther from "./layouts/LayoutOther";
+import ProjectDesc from "./pages/ProjectDesc";
 
 function App() {
   const darkMode = useSelector((state) => state.darkMode.darkMode);
@@ -36,10 +37,16 @@ function App() {
             <Home/>
           </NavBarLayout>
           } ></Route>
-        <Route path="/projects" element={
+        <Route path="/projects/" element={
           <LayoutOther>
 
           <Projects/>
+          </LayoutOther>
+          } ></Route>
+        <Route path="/projects/:id" element={
+          <LayoutOther>
+
+          <ProjectDesc/>
           </LayoutOther>
           } ></Route>
         <Route path="/about" element={
