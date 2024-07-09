@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,4 +13,8 @@
     .bg-primarylight {
       background-color: #553d7d; /* Example light mode background color */
     }
+    .bg-secondary{
+        /* background-color: linear-gradient(0deg, #392657 0%, #392657 100%, #392657 80%); */
+        background: linear-gradient(0deg, #392657 0%, #392657 100%, #392657 80%);
+      }
   }

@@ -19,8 +19,7 @@ function Startup() {
             <WavyLink
               color="#ffffff"
               className=""
-              to="/home"
-            >
+              to="/home">
               Start
             </WavyLink>
           </div>

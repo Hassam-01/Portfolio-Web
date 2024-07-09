@@ -5,6 +5,26 @@
   background-color: #553d7d;
 } */
 
-.bg-secondary{
+/* .bg-secondary{
   background-color: linear-gradient(0deg, #392657 0%, #392657 100%, #392657 80%);
-}
+} */
+
+  .nav{
+    @apply ml-20 relative text-xl anton-sc-regular tracking-[0.2rem];
+  }
+  
+  .nav::after{
+    @apply content-[''] bg-white h-[3px] w-[0%] left-1 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .nav:hover::after{
+    @apply w-[80%]
+  }
+
+
+  .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
