@@ -1,20 +1,10 @@
-/* .bg-primarydark{
-  background-color: #392657;
-}
-.bg-primarylight{
-  background-color: #553d7d;
-} */
-
-/* .bg-secondary{
-  background-color: linear-gradient(0deg, #392657 0%, #392657 100%, #392657 80%);
-} */
 
   .nav{
     @apply ml-20 relative text-xl anton-sc-regular tracking-[0.2rem];
   }
   
   .nav::after{
-    @apply content-[''] bg-white h-[3px] w-[0%] left-1 -bottom-[5px] rounded-xl absolute duration-300
+    @apply content-[''] bg-[#333333] dark:bg-white h-[3px] w-[0%] left-1 -bottom-[5px] rounded-xl absolute duration-300
   }
   .nav:hover::after{
     @apply w-[80%]
@@ -24,13 +14,13 @@
     @apply relative
   }
   .lineBelow::after{
-    @apply content-[''] bg-white h-[1px] left-5 -bottom-[10px] md:-bottom-[12px] opacity-30 rounded-xl  absolute w-[80%] 
+    @apply content-[''] bg-[#333333] dark:bg-white h-[1px] left-5 -bottom-[10px] md:-bottom-[12px] opacity-30 rounded-xl  absolute w-[80%] 
   }
   .heading{
     @apply relative
   }
   .heading::after{
-    @apply content-[''] bg-white h-[1px] left-0 -bottom-[5px] md:-bottom-[5px] opacity-30 rounded-xl  absolute w-[100%] 
+    @apply content-[''] bg-[#333333] dark:bg-white h-[1px] left-0 -bottom-[5px] md:-bottom-[5px] opacity-30 rounded-xl  absolute w-[100%] 
   }
 
   .anton-sc-regular {

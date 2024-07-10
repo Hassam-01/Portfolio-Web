@@ -30,7 +30,8 @@ This project, developed during the first semester, is a data visualization tool 
 - graphics.h library
         `,
         overview: "A C-Based Graph Plotter used to plot the data on 2D Graph",
-        img: project1Image
+        img: project1Image,
+        git: "https://github.com/vanix056/graph-plotter",
     },
     {
         id: 4,
@@ -57,14 +58,14 @@ Abdullah Assists is a voice/chat bot developed in Java that combines various adv
 - Markov Chain Neural Network
         `,
         overview: "A Java based Voice Bot which can respond to almost every query when accessed with specific commands.",
-        img: project4Image
+        img: project4Image,
+        git: "https://github.com/vanix056/voice-bot",
     },
     {
         id: 3,
         title: "Emotion Detection | Self Trained",
         description: `
 ## Overview:
-
 An emotion detection system using a custom-trained model with supervised learning techniques. The system can recognize five key emotions: happy, sad, angry, surprised, and fearful. Utilizes OpenCV for face detection and a trained model to identify emotions within the detected face in real-time.
 
 ![IMAGE](${project3Image})
@@ -80,7 +81,8 @@ An emotion detection system using a custom-trained model with supervised learnin
 - Iriun webcam
         `,
         overview: "Emotion Detection Project Using OpenCv and self-trained model using Supervised Learning Techniques.",
-        img: project3Image
+        img: project3Image,
+        git: "https://github.com/vanix056/emotion-detection",
     },
     {
         id: 2,
@@ -104,7 +106,8 @@ A Virtual Mouse powered by intuitive hand gestures, performing functions like le
 - PyAutoGUI
         `,
         overview: "A virtual mouse controlled using gestures and can perform almost all the features of a regular mouse",
-        img: project2Image
+        img: project2Image,
+        git: "https://github.com/vanix056/virtual-mouse",
     },
     {
         id: 5,
@@ -115,8 +118,8 @@ A Virtual Mouse powered by intuitive hand gestures, performing functions like le
 EnergySyncPortal is designed to streamline electricity bill management and enhance customer experience in the energy sector. It includes an efficient complaint management system to address customer concerns effectively, with a user-friendly interface, comprehensive overview, and enhanced accessibility.
 
 ![IMAGE](${project5Image}) 
-
-
+        
+        
 ## Key Features:
 1. User-Friendly Interface: Navigate seamlessly with a clean and intuitive dashboard featuring sections like Dashboard, Bills, Transactions, Meter Applications, and Complaints.
 2. Comprehensive Overview: Gain insights into all complaints, including numbers, descriptions, and current statuses, ensuring transparency and informed customer engagement.
@@ -128,10 +131,11 @@ EnergySyncPortal is designed to streamline electricity bill management and enhan
 ## Tools:
 - Web development tools
 - Database management systems
-        `,
-        overview: "Covers all the requirements necessary to replace the traditional billing system.",
-        img: project5Image
-    },
+`,
+overview: "Covers all the requirements necessary to replace the traditional billing system.",
+img: project5Image,
+git: "https://github.com/vanix056/billing-system",
+},
 ];
 
 export default ProjectData;

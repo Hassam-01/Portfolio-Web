@@ -1,8 +1,8 @@
 import { CiLight } from "react-icons/ci";
-import { MdLightMode } from "react-icons/md";
+// import { MdLightMode } from "react-icons/md";
 import {useDispatch, useSelector} from "react-redux"
 import { changeDarkMode } from "../store/darkModeSlice";
-
+import { IoMdMoon } from "react-icons/io";
 
 function Mode() {
 //   const [isDark, setIsDark] = useState(true);
@@ -15,7 +15,7 @@ const darkMode = useSelector((state)=> state.darkMode.darkMode);
     <div className="flex justify-start bg-primary px-2 py-2">
       {darkMode && <CiLight className="h-6 w-6 text-white" onClick={()=>dispatch(changeDarkMode())}/>}
 
-      {!darkMode && <MdLightMode className="h-6 w-6 text-yellow-400"  onClick={()=>dispatch(changeDarkMode())} />}
+      {!darkMode && <IoMdMoon className="h-6 w-6"  onClick={()=>dispatch(changeDarkMode())} />}
     </div>
   );
 }

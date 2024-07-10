@@ -3,7 +3,7 @@ import ProjectData from "../projects/ProjectData";
 
 function Projects() {
   return (
-    <div className=" dark:text-white text-black w-screen">
+    <div className=" w-screen">
       <div className="mt-20 mx-6  ">
         <div className="flex text-4xl md:text-5xl justify-center">
           <h1 className="lineBelow anton-sc-regular md:tracking-wider tracking-widest">

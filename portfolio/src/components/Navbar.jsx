@@ -18,7 +18,7 @@ function Navbar() {
   console.log(darkMode);
 
   return (
-    <div className="w-screen flex dark:text-white px-2 relative text-black items-center dark:bg-[#251243] justify-between md:justify-center md:px-4 py-4">
+    <div className="w-screen flex dark:text-white text-[#333333] px-2 relative text-bck items-center dark:bg-[#251243] justify-between md:justify-center md:px-4 py-4">
       <div className="flex-none absolute ml-2 top-2 left-2">
         <Mode />
       </div>

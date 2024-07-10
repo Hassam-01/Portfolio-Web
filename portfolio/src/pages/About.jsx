@@ -9,8 +9,8 @@ function About() {
     <div className="flex-grow flex justify-center dark:text-white">
       <div className="flex flex-col justify-between w-full max-w-screen-xl min-h-screen py-24 px-4">
         <div className="flex flex-col justify-between flex-grow">
-          <h1 className="heading md:text-5xl text-3xl font-bold">ABOUT ME</h1>
-          <div className="mt-14 overflow-x-hidden flex-grow">
+          <h1 className="heading md:text-5xl text-3xl font-bold  dark:text-[#CC8BF2]">ABOUT ME</h1>
+          <div className="mt-6 overflow-x-hidden flex-grow">
             <div className="flex flex-col md:flex-row relative">
               <div className="md:w-2/3 md:text-2xl text-xl space-y-10 z-10">
                 <div className="flex flex-col">
@@ -26,7 +26,7 @@ function About() {
                     <img
                       src={cloud}
                       alt="Machine learning cloud"
-                      className="w-full md:w-auto max-w-72 max-h-72"
+                      className="w-full md:w-auto max-w-72 min-h-72"
                     />
                   </div>
                   <p className="mt-4">
