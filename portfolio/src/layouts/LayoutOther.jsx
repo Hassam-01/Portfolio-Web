@@ -1,6 +1,7 @@
 
 import PropTypes from "prop-types";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 const LayoutOther = ({children}) =>{
@@ -12,6 +13,8 @@ const LayoutOther = ({children}) =>{
                     {children}
                 </main>
             </div>
+        <div className="lineBorder w-screen  border-t-2 dark:border-white border-[#333333]"></div>
+            <Footer />
         </div>
     )
 }

@@ -1,9 +1,13 @@
 
 import project1Image from '../assets/project1.png';
 import project2Image from '../assets/project2.png';
+import project2_1Image from '../assets/project2_1.png';
 import project3Image from '../assets/project3face.png';
+import project3_1Image from '../assets/project3_1.png';
 import project4Image from '../assets/project4voice.png';
+import project4_1Image from '../assets/project4_1.png';
 import project5Image from '../assets/project5bill.jpg';
+import project5_1Image from '../assets/project5_1.jpg';
 import project1 from "../assets/project1.png";
 import project1_2 from "../assets/project1_2.png";
 const ProjectData = [
@@ -41,7 +45,7 @@ This project, developed during the first semester, is a data visualization tool 
 
 Abdullah Assists is a voice/chat bot developed in Java that combines various advanced features to provide a comprehensive assistant experience.
 
-![IMAGE](${project4Image})
+![IMAGE](${project4Image}) ![IMAGE](${project4_1Image})
 ## Key Features:
 1. Speech Recognition and Synthesis: The bot is equipped with a speech recognition model that achieves a 75% accuracy rate, with plans for improvement. For speech synthesis, Free TTS is used.
 2. Translation: Integrated with Google Web App Scripts API, the bot offers seamless translation capabilities.
@@ -68,7 +72,7 @@ Abdullah Assists is a voice/chat bot developed in Java that combines various adv
 ## Overview:
 An emotion detection system using a custom-trained model with supervised learning techniques. The system can recognize five key emotions: happy, sad, angry, surprised, and fearful. Utilizes OpenCV for face detection and a trained model to identify emotions within the detected face in real-time.
 
-![IMAGE](${project3Image})
+![IMAGE](${project3Image}) ![IMAGE](${project3_1Image})
 
 ## Key Features:
 - Real-time Emotion Detection: Utilizes OpenCV for face detection and a trained model to identify emotions within the detected face in real-time.
@@ -92,7 +96,7 @@ An emotion detection system using a custom-trained model with supervised learnin
 
 A Virtual Mouse powered by intuitive hand gestures, performing functions like left/right click, double-click, mouse movement, screenshot capture, screen brightness adjustment, and audio level management—all with simple hand gestures. Utilizes OpenCV for computer vision tasks, MediaPipe for hand tracking and gesture recognition, and PyAutoGUI for controlling mouse and keyboard functions.
 
-![IMAGE](${project2Image})
+![IMAGE](${project2Image}) ![IMAGE](${project2_1Image})
 
 ## Key Features:
 - Gesture-Based Controls: Perform left/right clicks, double-clicks, and control mouse movement using intuitive hand gestures.
@@ -117,7 +121,7 @@ A Virtual Mouse powered by intuitive hand gestures, performing functions like le
 
 EnergySyncPortal is designed to streamline electricity bill management and enhance customer experience in the energy sector. It includes an efficient complaint management system to address customer concerns effectively, with a user-friendly interface, comprehensive overview, and enhanced accessibility.
 
-![IMAGE](${project5Image}) 
+![IMAGE](${project5Image})  ![IMAGE](${project5_1Image}) 
         
         
 ## Key Features:

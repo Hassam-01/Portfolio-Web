@@ -80,8 +80,8 @@ function Contact() {
 
   return (
     <div>
-      <div className="flex items-center justify-center mt-4">
-        <div className="min-w-2xl max-w-5xl w-full bg-gray-400 dark:bg-gray-800 bg-opacity-60 dark:text-white rounded-lg shadow-md p-8 md:flex md:space-x-8">
+      <div className="flex items-center justify-center mt-6 mb-4">
+        <div className="min-w-2xl max-w-5xl w-full bg-gray-400 dark:bg-gray-800 bg-opacity-60 dark:text-white rounded-lg shadow-md p-6 md:p-8 md:flex md:space-x-8">
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold mb-4">Lets connect constellations</h2>
             <p className="mb-8">Lets align our constellations! Reach out and let the magic of collaboration illuminate our skies.</p>
@@ -136,7 +136,7 @@ function Contact() {
                 type="submit"
                 className="w-full p-2 rounded text-white dark:bg-purple-600 bg-gray-500 dark:hover:bg-purple-700 hover:bg-gray-700 focus:outline-none focus:ring-2 dark:focus:ring-purple-500 focus:ring-gray-600"
               >
-                Send it to the moon 🚀
+                Send message 
               </button>
             </form>
           </div>
@@ -145,12 +145,12 @@ function Contact() {
               <img
                 src={connect}
                 alt="Astronaut"
-                className={`rounded-lg shadow-md ${darkMode ? "" : "hidden"}`}
+                className={`rounded-lg shadow-md ${darkMode ? "" : ""}`}
               />
               <img
                 src={connectlight}
                 alt="Astronaut"
-                className="rounded-lg shadow-md dark:hidden"
+                className="rounded-lg shadow-md dark:hidden hidden"
               />
             </div>
           </div>

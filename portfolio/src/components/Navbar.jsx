@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 import profile from "../assets/Profile.jpg";
 
 import home from "../assets/icons.png";
+import contact_dark from "../assets/id-card.png";
+import home_dark from "../assets/home.png";
+import phone_dark from "../assets/phone.png";
+import project_dark from "../assets/project-management.png";
 import phone from "../assets/icons - Copy (2).png";
 import contact from "../assets/icons - Copy.png";
 import project from "../assets/icons - Copy (3).png";
@@ -18,7 +22,7 @@ function Navbar() {
   console.log(darkMode);
 
   return (
-    <div className="w-screen flex dark:text-white text-[#333333] px-2 relative text-bck items-center dark:bg-[#251243] justify-between md:justify-center md:px-4 py-4">
+    <div className="w-screen  flex px-2 relative items-center dark:bg-[#251243] justify-between md:justify-center md:px-4 py-4">
       <div className="flex-none absolute ml-2 top-2 left-2">
         <Mode />
       </div>
@@ -37,8 +41,13 @@ function Navbar() {
           />
         )}
         </div>
+        {/* <div>
+          {
+            darkMode ? 
+          }
+        </div> */}
         <div
-          className={`flex flex-col px-2 bg-white z-50 dark:bg-purple-900 bg-opacity-20 dark:bg-opacity-100 absolute ${
+          className={`flex flex-col px-2 bg-white z-50 dark:bg-purple-900 bg-opacity- dark:bg-opacity-100 absolute ${
             isOpen ? "h-96 px-3 py-6 w-full" : "p-0 w-full h-0 overflow-hidden"
           } right-0 left-0 top-16 transition-all duration-300 ease-linear`}
         >
@@ -65,28 +74,28 @@ function Navbar() {
               to="/home"
               className="flex gap-4 text-xl"
               onClick={() => dispatch(navBarStatus())} >
-            <img src={home} alt="Home" className="h-7 w-7" />
+            <img src={`${darkMode? home : home_dark}`} alt="Home" className="h-7 w-7" />
             Home
             </Link>
             <Link
               to="/projects"
               className="flex  gap-4 text-xl"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={project} alt="Projects" className="h-7 w-7" />
+            <img src={`${darkMode? project: project_dark}`} alt="Projects" className="h-7 w-7" />
             Projects
             </Link>
             <Link
               to="/contact"
               className="flex items-start gap-4 text-xl"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={phone} alt="Contact" className="h-7 w-7 text-white" />
+            <img src={`${darkMode? phone: phone_dark}`} alt="Contact" className="h-7 w-7 text-white" />
             Contact
             </Link>
             <Link
               to="/about"
               className="flex items-start gap-4 text-xl"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={contact} alt="About" className="h-7 w-7" />
+            <img src={`${darkMode? contact : contact_dark}`} alt="About" className="h-7 w-7" />
             About
             </Link>
               </div>

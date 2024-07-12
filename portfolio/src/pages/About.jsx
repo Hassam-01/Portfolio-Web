@@ -1,8 +1,5 @@
 import cloud from "../assets/cloud.png";
-import { FaFacebook, FaDiscord  } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
-import { SiLinkedin } from "react-icons/si";
-import { BsInstagram } from "react-icons/bs";
+
 
 function About() {
   return (
@@ -54,23 +51,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="reach-out flex justify-center gap-10 text-3xl md:text-4xl mt-10">
-          <a href="https://www.facebook.com/abdullah.waqar.9279?mibextid=LQQJ4d">
-          <FaFacebook className="hover:-translate-y-2 transition-all duration-300" />
-          </a>
-          <a href="https://github.com/vanix056">
-          <FaGithub className="hover:-translate-y-2 transition-all duration-300" />
-          </a>
-          <a href="https://www.linkedin.com/in/abdullah-waqar-25353b2a5/recent-activity/all/">
-          <SiLinkedin className="hover:-translate-y-2 transition-all duration-300" />
-          </a>
-          <a href="https://www.instagram.com/vanix_013?igsh=dWpxdmE3cTIzaW1p&utm_source=qr">
-          <BsInstagram className="hover:-translate-y-2 transition-all duration-300" />
-          </a>
-          <a href="https://www.instagram.com/vanix_013?igsh=dWpxdmE3cTIzaW1p&utm_source=qr">
-          <FaDiscord  className="hover:-translate-y-2 transition-all duration-300" />
-          </a>
-        </div>
+        
       </div>
     </div>
   );

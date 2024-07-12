@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import PropTypes from "prop-types";
 
@@ -10,6 +11,8 @@ const NavBarLayoutHome = ({ children }) => {
                     {children}
                 </main>
             </div>
+            <hr />
+            <Footer/>
         </div>
     )
 }
