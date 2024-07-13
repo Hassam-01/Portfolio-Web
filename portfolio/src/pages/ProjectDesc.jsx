@@ -15,14 +15,14 @@ function ProjectDesc() {
         {/* <img src={project1} alt="" /> */}
       {project ? (
         <div key={project.id} className=" ">
-          <div className="flex flex-col items-center justify-between gap-12">
-            <h2 className="text-4xl font-bold">{project.title}</h2>
+          <div className="flex flex-col items-center justify-between gap-12 ">
+            <h2 className="text-2xl  md:text-3xl font-bold heading ">{project.title}</h2>
             <div className={`flex gap-4`} data-color-mode={`${darkMode?"`dark":"light"}`}>
-              <MarkdownPreview source={project.description} className="bg-transparent md:text-xl text-lg max-w-screen-xl"/>
+              <MarkdownPreview source={project.description} className="bg-transparent text-[16px] max-w-screen-xl"/>
             </div>
             <div className="">
-              <a href={project.git} className=" hover:underline flex items-center mt-3 mx-4 max-w-screen-xl">
-              <BsGithub className=" h-8 w-8 mr-2" />
+              <a href={project.git} className=" hover:underline flex items-center mt-3 mx-4 max-w-screen-xl text-sm">
+              <BsGithub className=" h-5 w-5 mr-2 "  />
                 View on GitHub
               </a>
             </div>

@@ -7,8 +7,8 @@ import { BsInstagram } from "react-icons/bs";
 function Footer() {
     // <hr className="mt-6 mb-2"/>
   return (
-    <div className="md:mb-10 mb-4 flex md:justify-center flex-col md:flex items-center  space-y-3 mt-7">
-      <div className="reach-out flex justify-center md:gap-10 gap-4 text-3xl md:text-4xl items-center">
+    <div className="md:mb-10 mb-4 flex md:justify-center flex-col md:flex items-center  space-y-4 mt-7 footerLine ">
+      <div className="reach-out flex justify-center md:gap-6 gap-4 text-xl md:text-2xl items-center">
           <a href="https://www.facebook.com/abdullah.waqar.9279?mibextid=LQQJ4d">
           <FaFacebook className="hover:-translate-y-2 transition-all duration-300" />
           </a>
@@ -25,7 +25,7 @@ function Footer() {
           <FaDiscord  className="hover:-translate-y-2 transition-all duration-300" />
           </a>
         </div>
-        <div className=" md:absolute right-5">
+        <div className=" md:absolute bottom-0 right-5 text-xs md:text-sm items-center">
         <p>Developed by ABC</p>
         </div>
     </div>

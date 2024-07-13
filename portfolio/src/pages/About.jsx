@@ -4,12 +4,12 @@ import cloud from "../assets/cloud.png";
 function About() {
   return (
     <div className="flex-grow flex justify-center dark:text-white">
-      <div className="flex flex-col justify-between w-full max-w-screen-xl min-h-screen py-24 px-4">
+      <div className="flex flex-col justify-between w-full max-w-screen-xl  py-24 px-4">
         <div className="flex flex-col justify-between flex-grow">
-          <h1 className="heading md:text-5xl text-3xl font-bold  dark:text-[#CC8BF2]">ABOUT ME</h1>
+          <h1 className="heading md:text-3xl text-2xl font-bold  dark:text-[#CC8BF2] anton-sc-regular md:tracking-wider  tracking-widest">ABOUT ME</h1>
           <div className="mt-6 overflow-x-hidden flex-grow">
             <div className="flex flex-col md:flex-row relative">
-              <div className="md:w-2/3 md:text-2xl text-xl space-y-10 z-10">
+              <div className="md:w-2/3 md:text-lg text-sm space-y-10 z-10">
                 <div className="flex flex-col">
                   <p className="mt-8">
                     I have extensive experience in machine learning and deep

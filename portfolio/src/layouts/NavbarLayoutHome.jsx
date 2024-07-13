@@ -11,7 +11,7 @@ const NavBarLayoutHome = ({ children }) => {
                     {children}
                 </main>
             </div>
-            <hr />
+            {/* <hr /> */}
             <Footer/>
         </div>
     )

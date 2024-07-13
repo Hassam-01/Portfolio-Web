@@ -84,7 +84,7 @@ An emotion detection system using a custom-trained model with supervised learnin
 - OpenCV
 - Iriun webcam
         `,
-        overview: "Emotion Detection Project Using OpenCv and self-trained model using Supervised Learning Techniques.",
+        overview: "Self Trained model using Open CV and Supervised Learning Techniques.",
         img: project3Image,
         git: "https://github.com/vanix056/emotion-detection",
     },

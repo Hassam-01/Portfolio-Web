@@ -13,7 +13,7 @@ const LayoutOther = ({children}) =>{
                     {children}
                 </main>
             </div>
-        <div className="lineBorder w-screen  border-t-2 dark:border-white border-[#333333]"></div>
+        {/* <hr /> */}
             <Footer />
         </div>
     )

@@ -61,7 +61,7 @@ function Navbar() {
               alt="Profile"
               className="h-32 w-32 rounded-full"
             />
-            <p className="text-center text-xl mt-4">Junior AI Engineer</p>
+            <p className="text-center text-lg mt-4">Junior AI Engineer</p>
           </div>
           <div
             className={`flex flex-col items-center mt-6 space-y-4 ${
@@ -72,47 +72,47 @@ function Navbar() {
 
             <Link
               to="/home"
-              className="flex gap-4 text-xl"
+              className="flex gap-4 text-[16px] items-center"
               onClick={() => dispatch(navBarStatus())} >
-            <img src={`${darkMode? home : home_dark}`} alt="Home" className="h-7 w-7" />
+            <img src={`${darkMode? home : home_dark}`} alt="Home" className="h-5 w-5" />
             Home
             </Link>
             <Link
               to="/projects"
-              className="flex  gap-4 text-xl"
+              className="flex  gap-4 text-[16px] items-center"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={`${darkMode? project: project_dark}`} alt="Projects" className="h-7 w-7" />
+            <img src={`${darkMode? project: project_dark}`} alt="Projects" className="h-5 w-5" />
             Projects
             </Link>
             <Link
               to="/contact"
-              className="flex items-start gap-4 text-xl"
+              className="flex gap-4 text-[16px] items-center"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={`${darkMode? phone: phone_dark}`} alt="Contact" className="h-7 w-7 text-white" />
+            <img src={`${darkMode? phone: phone_dark}`} alt="Contact" className="h-5 w-5 text-white" />
             Contact
             </Link>
             <Link
               to="/about"
-              className="flex items-start gap-4 text-xl"
+              className="flex gap-4 text-[16px] items-center"
               onClick={() => dispatch(navBarStatus())}>
-            <img src={`${darkMode? contact : contact_dark}`} alt="About" className="h-7 w-7" />
+            <img src={`${darkMode? contact : contact_dark}`} alt="About" className="h-5 w-5" />
             About
             </Link>
               </div>
           </div>
         </div>
       </div>
-      <div className="hidden md:flex flex-grow justify-center">
-        <Link to="/home" className="nav">
+      <div className="hidden md:flex  flex-grow justify-center">
+        <Link to="/home" className="nav text-lg">
         Home
         </Link>
-        <Link to="/projects" className="nav">
+        <Link to="/projects" className="nav text-lg">
           Projects
         </Link>
-        <Link to="/contact" className="nav">
+        <Link to="/contact" className="nav text-lg">
           Contact
         </Link>
-        <Link to="/about" className="nav">
+        <Link to="/about" className="nav text-lg">
           About
         </Link>
       </div>
