@@ -10,13 +10,15 @@ function Contact() {
   const dispatch = useDispatch();
   const form = useRef();
 
-  const [formState, setFormState] = useState({
+  const initialState = {
     email: "",
     lastName: "",
     from_name: "",
     phone: "",
     message: ""
-  });
+  };
+
+  const [formState, setFormState] = useState(initialState);
 
   const [errors, setErrors] = useState({});
 
@@ -53,6 +55,10 @@ function Contact() {
     dispatch(updateEmailBody({...formState, [name]:value}));
   }
 
+  const resetForm = () => {
+    setFormState(initialState);
+  }
+
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -70,11 +76,13 @@ function Contact() {
       .then(
         () => {
           console.log('SUCCESS!');
+          resetForm();
         },
         (error) => {
           console.log('FAILED...', {error});
         },
       );
+
   }
 
   return (
