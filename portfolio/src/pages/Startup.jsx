@@ -21,7 +21,7 @@ function Startup() {
             to="/home"
           >
             <div className="bg-gray-800 dark:bg-white rounded-full">
-              <p className="md:text-xl font-light py-5 md:py-5 px-4">Start</p>
+              <p className="md:text-xl font-light py-5 md:py-5 px-4 font-semibold">Start</p>
             </div>
           </WavyLink>
         </div>

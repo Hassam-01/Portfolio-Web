@@ -10,12 +10,14 @@ import ai from "../assets/technology.png";
 import nn from "../assets/neural-network.png";
 import dark from "../assets/homedark.png";
 import { useSelector } from "react-redux";
+import { useLocation, useParams } from "react-router-dom";
 
 
 function Home() {
 
   const darkMode= useSelector((state) => state.darkMode.darkMode);
-
+  const  location = useLocation();
+  console.log(location.pathname)
   return (
       <div className="w-full flex flex-col items-center justify-center flex-grow overflow-hidden md:my-5 my-4" >
         <div className="flex flex-col space-y-3 md:space-y-3 items-center justify-center  flex-grow">
