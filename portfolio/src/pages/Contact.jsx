@@ -75,11 +75,11 @@ function Contact() {
       )
       .then(
         () => {
-          console.log('SUCCESS!');
+          alert("Email Sent Sucessfully!")
           resetForm();
         },
         (error) => {
-          console.log('FAILED...', {error});
+          alert("Error Sending Email!")
         },
       );
 
