@@ -26,7 +26,7 @@ function Footer() {
           </a>
         </div>
         <div className=" md:absolute bottom-0 right-5 text-xs md:text-sm items-center">
-        <p>Developed by ABC</p>
+        <p>Developed by Hassam Ali</p>
         </div>
     </div>
   )

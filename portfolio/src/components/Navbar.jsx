@@ -19,7 +19,6 @@ function Navbar() {
   const dispatch = useDispatch();
   const isOpen = useSelector((state) => state.navBarOpen.navBarOpen);
   const darkMode = useSelector((state) => state.darkMode.darkMode);
-  console.log(darkMode);
 
   return (
     <div className="w-screen  flex px-2 relative items-center dark:bg-[#251243] justify-between md:justify-center md:px-4 py-4">

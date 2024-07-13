@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 
 function ProjectDesc() {
   const { id: projectID } = useParams();
-  console.log(projectID);
   
   const project = ProjectData.find(project => project.id === Number(projectID));
   const darkMode = useSelector((state)=> state.darkMode.darkMode);
