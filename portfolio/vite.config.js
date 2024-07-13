@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: 'dist',
       rollupOptions: {
-        input: '/index.html' // Ensure Vite knows where the entry file is
+        input: 'index.html' // Ensure Vite knows where the entry file is
       }
     }
   }
