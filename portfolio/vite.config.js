@@ -10,6 +10,12 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     server: {
       host : true
+    },
+    build: {
+      outDir: 'dist', // Ensure the output directory is set
+      rollupOptions: {
+        input: '/index.html' // Ensure Vite knows where the entry file is
+      }
     }
   }
 })
