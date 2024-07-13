@@ -4,5 +4,9 @@
     "@uiw/react-markdown-preview": "^5.1.2",
     "dotenv": "^16.4.5",
     "prop-types": "^15.8.1"
-  }
+  },
+    "scripts": {
+      "build": "vite build"
+    }
+  
 }
