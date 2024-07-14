@@ -1,6 +1,6 @@
 # Portfolio Project
 
-This is a personal portfolio project built using React, Vite, JavaScript, and Tailwind CSS. The project showcases my work, skills, and provides a way to contact me. The portfolio includes various modern web development tools and libraries to enhance functionality and user experience.
+This is a personal portfolio project built using React, Vite, JavaScript, and Tailwind CSS. The portfolio includes various modern web development tools and libraries to enhance functionality and user experience.
 
 ## Live Demo
 
